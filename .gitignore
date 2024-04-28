@@ -1,0 +1,21 @@
+# Ignore the virtual environment folder
+env/
+# Ignore video files so we don't get sued
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.wmv
+*.flv
+*.mpeg
+*.mpg
+*.webm
+*.3gp
+*.m4v
+*.ogv
+*.ogg
+*.vob
+*.qt
+*.swf
+*.rm
+*.rmvb
