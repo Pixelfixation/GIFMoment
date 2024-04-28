@@ -19,3 +19,5 @@ env/
 *.swf
 *.rm
 *.rmvb
+# Ignore gifs
+*.gif

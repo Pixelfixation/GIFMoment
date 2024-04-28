@@ -139,7 +139,6 @@ def find_video_files(directory, extensions=['.mp4', '.avi', '.mov', '.mkv']):
                 video_files.append(os.path.join(root, file))
     return video_files
 
-
 def create_gif(video_path, start_time, end_time, output_dir, target_size=(640, 360)):
     # Load the video clip
     clip = VideoFileClip(video_path)
@@ -175,7 +174,6 @@ def create_gif(video_path, start_time, end_time, output_dir, target_size=(640, 3
     clip.close()
     resized_clip.close()
 
-#TODO need to make it so that long lines of text do not run of the screen by adding line breaks.
 def add_text_to_gif(input_gif_path, output_gif_path, text):
     """
     Add text overlay to an existing GIF.
